@@ -5,6 +5,9 @@
 # Session Data files
 .RData
 
+# The R project file
+*.Rproj
+
 # Example code in package build process
 *-Ex.R
 
@@ -28,9 +31,16 @@ vignettes/*.pdf
 /*_cache/
 /cache/
 
+# misc files directory
+/misc/
+
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
+
+# Rendered files
+README.html
