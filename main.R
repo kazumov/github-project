@@ -1,6 +1,7 @@
 # Author: Ruben R. Kazumov <kazumov@gmail.com>
 
 library(gh)
+source(file = "get-github-token.R")
 
 gitHubAPI <- list(
   listOfProjects = "/repos/:owner/:repo/projects"
@@ -11,7 +12,7 @@ repo <- list(
   name = "github-project",
   project = "The Tragedy of Hamlet, Prince of Denmark",
   users = c("kazumov"),
-  accessToken = "5e5d029af69b4dd08013e133509cccda8b793401"
+  accessToken = getGitHubToken()
 )
 
 
