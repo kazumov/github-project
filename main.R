@@ -1,3 +1,5 @@
+# Author: Ruben R. Kazumov <kazumov@gmail.com>
+
 library(gh)
 
 gitHubAPI <- list(
